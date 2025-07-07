@@ -16,7 +16,6 @@ A responsive and user-friendly weather application built using **HTML**, **CSS**
 
 ## 📸 Screenshot
 
-> _(Add a screenshot named `weather_screenshot.png` in your repo)_
 
 ![Weather App](./weather_screenshot.png)
 
