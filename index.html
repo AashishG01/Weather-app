@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for search icon -->
+    <script src="https://kit.fontawesome.com/8ae474f643.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="app-container">
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" id="cityInput" placeholder="Search for a city..." />
+    <button class="search-button">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+</div>
+  
+  
+
+  <!-- Weather Card -->
+  <div class="weather-info">
+  <div class="weather-icon">
+    <i class="fa-solid fa-sun"></i>
+  </div>
+  <div class="temperature-section">
+    <h1 class="temperature">32°C</h1>
+    <h1 class="city-name">Ahmedabad</h1>
+  </div>
+  <div class="weather-details">
+    <div class="detail">
+      <i class="fa-solid fa-droplet"></i>
+      <span>Humidity: <strong>60%</strong></span>
+    </div>
+    <div class="detail">
+      <i class="fa-solid fa-wind"></i>
+      <span>Wind: <strong>18 km/h</strong></span>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
